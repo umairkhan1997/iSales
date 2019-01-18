@@ -1,0 +1,7 @@
+account tab :
+
+my order to cart page .
+return to home .
+account information show name,email , city 
+setting : logout just 
+policies :

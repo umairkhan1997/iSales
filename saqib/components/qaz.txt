@@ -1,0 +1,54 @@
+// import React, { Component } from 'react';
+// import { Container, Header, Content, List, ListItem, Thumbnail, Text, Left, Body, Right, Button, Root } from 'native-base';
+// import { Font, AppLoading } from "expo";
+
+// export default class ListThumbnailExample extends Component {
+
+//   constructor(props) {
+//     super(props);
+//     this.state = { loading: true };
+//   }
+
+//   async componentWillMount() {
+//     await Font.loadAsync({
+//       Roboto: require("native-base/Fonts/Roboto.ttf"),
+//       Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf")
+//     });
+//     this.setState({ loading: false });
+//   }
+
+//   render() {
+//     if (this.state.loading) {
+//       return (
+//         <Root>
+//           <AppLoading />
+//         </Root>
+//       );
+//     }
+//     return (
+//       <Root>
+//         <Container>
+//           <Header />
+//           <Content>
+//             <List>
+//               <ListItem thumbnail>
+//                 <Left>
+//                   <Thumbnail square source={{ uri: 'https://placeimg.com/640/640/nature' }} />
+//                 </Left>
+//                 <Body>
+//                   <Text>Sankhadeep</Text>
+//                   <Text note numberOfLines={1}>Its time to build a difference . .</Text>
+//                 </Body>
+//                 <Right>
+//                   <Button transparent>
+//                     <Text>View</Text>
+//                   </Button>
+//                 </Right>
+//               </ListItem>
+//             </List>
+//           </Content>
+//         </Container>
+//       </Root>
+//     )
+//   }
+// }
